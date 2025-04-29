@@ -1,0 +1,8 @@
+# Set default behavior to automatically normalize line endings.
+* text=auto
+
+# Don't modify these files
+*.tfstate binary
+*.tfstate.backup binary
+*.lock.hcl text
+*.txt text
