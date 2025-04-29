@@ -25,7 +25,7 @@ Install based on your system specification
 ```bash
 aws configure
 ```
-Find your access key and secret access key from your AWS profile. Give the defualt region and output type.
+Find your access key and secret access key from your AWS profile. Give the default region and output type.
 
 ### Terrafrom Steps
 
