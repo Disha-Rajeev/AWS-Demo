@@ -1,4 +1,4 @@
-### Terrafrom Modules Example
+# Terrafrom Modules Example
 
 This is Demo of Terraform modules.
 You have to mention your specifics in Terraform_Modules_example/main.tf file.
@@ -6,28 +6,28 @@ You have to mention your specifics in Terraform_Modules_example/main.tf file.
 You can check the generic setup in Terraform_Modules_example/modules/ec2-instance folder. 
 Once after verifying every setup is what you are looking for, then proceed with the following steps,
 
-# Terraform installation
+### Terraform installation
 
 ```bash
 https://developer.hashicorp.com/terraform/install
 ```
 Install based on your system specifications
 
-# AWS installation
+### AWS installation
 
 ```bash
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 ```
 Install based on your system specification
 
-# AWS Configure
+### AWS Configure
 
 ```bash
 aws configure
 ```
 Find your access key and secret access key from your AWS profile. Give the defualt region and output type.
 
-# Terrafrom Steps
+### Terrafrom Steps
 
 ```bash
 terraform init  
