@@ -2,7 +2,7 @@
 
 This is Demo of Terraform modules.
 You have to mention your specifics in Terraform_Modules_example/main.tf file.
----
+
 You can check the generic setup in Terraform_Modules_example/modules/ec2-instance folder. 
 Once after verifying every setup is what you are looking for, then proceed with the following steps,
 
