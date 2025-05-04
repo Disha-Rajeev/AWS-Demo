@@ -39,9 +39,9 @@ Congratulations! You have done your first complete demo.
 ## ⚙️ Prerequisites
 
 - Terraform
-- AWS CLI with configured credentials (\`~/.aws/credentials\`)
+- AWS CLI with configured credentials (~/.aws/credentials)
 - Python 3.x (for Flask)
-- OpenSSH key pair in \`~/.ssh/id_rsa\` and \`~/.ssh/id_rsa.pub\`
+- OpenSSH key pair in ~/.ssh/id_rsa and ~/.ssh/id_rsa.pub
 - Git
 
 ---
