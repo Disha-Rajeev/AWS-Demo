@@ -1,4 +1,4 @@
-### 🚀 Terraform + Flask App on AWS EC2
+# 🚀 Terraform + Flask App on AWS EC2
 
 This project demonstrates how to provision AWS infrastructure using Terraform and deploy a simple Flask web application on an EC2 instance.
 
@@ -30,9 +30,9 @@ This project demonstrates how to provision AWS infrastructure using Terraform an
 
 A basic Flask app (\`app.py\`) that shows:
 
-\`\`\`
+```
 Congratulations! You have done your first complete demo.
-\`\`\`
+```
 
 ---
 
@@ -50,29 +50,29 @@ Congratulations! You have done your first complete demo.
 
 ### 1. Clone the repository
 
-\`\`\`bash
+```bash
 git clone https://github.com/Disha-Rajeev/AWS-Demo.git
 cd AWS-Demo
-\`\`\`
+```
 
 ### 2. Customize variables
 
-Edit \`variables.tf\` if needed (e.g., VPC CIDR)
+Edit variables.tf if needed (e.g., VPC CIDR)
 
 ### 3. Initialize and apply Terraform
 
-\`\`\`bash
+```bash
 terraform init
 terraform apply
-\`\`\`
+```
 
 ### 4. Access the app
 
 Once deployed, copy the EC2 Public IP and visit:
 
-\`\`\`
+```
 http://<public-ip>:5000
-\`\`\`
+```
 
 ---
 
@@ -80,16 +80,16 @@ http://<public-ip>:5000
 
 To delete all provisioned resources:
 
-\`\`\`bash
+```bash
 terraform destroy
-\`\`\`
+```
 
 ---
 
 ## 🛡️ Security Tips
 
-- Never push your private key (\`id_rsa\`) to GitHub.
-- Use \`.gitignore\` to exclude sensitive files.
+- Never push your private key (id_rsa) to GitHub.
+- Use .gitignore to exclude sensitive files.
 
 ---
 
