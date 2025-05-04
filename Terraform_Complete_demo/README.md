@@ -6,13 +6,13 @@ This project demonstrates how to provision AWS infrastructure using Terraform an
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 ├── main.tf            # Terraform resources: VPC, EC2, SG, etc.
 ├── variables.tf       # Variable definitions (e.g., VPC CIDR block)
 ├── app.py             # Simple Flask web application
 ├── README.md          # Project documentation
 ├── .gitignore         # Git ignored files
-\`\`\`
+```
 
 ---
 
