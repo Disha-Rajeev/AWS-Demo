@@ -1,4 +1,4 @@
-echo "# 🚀 Terraform + Flask App on AWS EC2
+### 🚀 Terraform + Flask App on AWS EC2
 
 This project demonstrates how to provision AWS infrastructure using Terraform and deploy a simple Flask web application on an EC2 instance.
 
